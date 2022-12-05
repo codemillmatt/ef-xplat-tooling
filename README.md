@@ -6,9 +6,9 @@ Hello! And thanks for watching the EF Core 6 - Cross Platform Tooling course fro
 
 This repository contains 4 projects that will help you follow along as you learn the course. Each project is in its own directory.
 
-* [`api-only`](/api-only/) => this contains a project that you can use for migrations, optimizations, and performance
-* [`api-reverse-engineer`](/api-reverse-engineer/) => this contains a project that you can use to reverse engineer an Azure SQL database
-* [`api-with-tests`](/api-with-tests/) => this contains a web api and unit test project
+* [`api-only`](/api-only/GlobalTicket.Events.Api/) => this contains a project that you can use for migrations, optimizations, and performance
+* [`api-reverse-engineer`](/api-reverse-engineer/GlobalTicket.Events.Api/) => this contains a project that you can use to reverse engineer an Azure SQL database
+* [`api-with-tests`](/api-with-tests/GlobalTicket.Events/) => this contains a web api and unit test project
 * [`mobile-app`](/mobile-app/) => this contains a .NET MAUI application that uses EF Core 6
 
 ## Some basic info
