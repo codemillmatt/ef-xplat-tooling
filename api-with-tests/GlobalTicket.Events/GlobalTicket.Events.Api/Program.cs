@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSqlite<EventContext>("Data Source=GlobalTicket.db");
+builder.Services.AddSqlite<EventContext>("Data Source=events.db");
 
 builder.Services.AddTransient<EventService>();
 
